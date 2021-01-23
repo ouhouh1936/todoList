@@ -1,19 +1,5 @@
-const eunha = {
-  name: "eun",
-  age: 15,
-  gender: "Femail",
-  isHandosome: true,
-  faMovies: ["Alomgthe goods", "LOTR", "Oldboy"],
-  favFood: [
-    {
-      name: "kimchi",
-      fatty: false,
-    },
-    {
-      name: "Cheese burger",
-      fatty: true,
-    },
-  ],
-};
+function sayHello(name, age) {
+  console.log(`hello!`, name, "you have", age, "years of age.");
+}
 
-console.log(eunha.favFood[0].fatty);
+sayHello("eunha", 15);
