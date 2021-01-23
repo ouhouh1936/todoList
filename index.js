@@ -1,13 +1,2 @@
-/* String
-const what = "ha";
- */
-/*Boolearn
-const wat = true;
-*/
-/* Number
-const wat = 666;
-*/
-
-/*  Float
-const wat = 55.1;
-*/
+const days0fWeek = ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"];
+console.log(days0fWeek[2]);
