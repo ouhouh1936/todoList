@@ -1,2 +1,19 @@
-const days0fWeek = ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"];
-console.log(days0fWeek[2]);
+const eunha = {
+  name: "eun",
+  age: 15,
+  gender: "Femail",
+  isHandosome: true,
+  faMovies: ["Alomgthe goods", "LOTR", "Oldboy"],
+  favFood: [
+    {
+      name: "kimchi",
+      fatty: false,
+    },
+    {
+      name: "Cheese burger",
+      fatty: true,
+    },
+  ],
+};
+
+console.log(eunha.favFood[0].fatty);
