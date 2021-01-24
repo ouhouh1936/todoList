@@ -1,7 +1,3 @@
-const title = document.querySelector("# title");
+const age = prompt("How oldare you");
 
-function handClick() {
-  title.style.color = "blue";
-}
-
-title.addEventListener("click", handClick);
+console.log(age);
